@@ -37,7 +37,7 @@ An AI-powered English learning application that provides scenario-based dictatio
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/fhyfang/AI-.git
+    git clone clone https://github.com/fhyfang/ai-english-shadowing-coach.git
     cd AI-
     ```
 
