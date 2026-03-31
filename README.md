@@ -22,11 +22,54 @@ An AI-powered English learning application that provides scenario-based dictatio
 *   **Frontend**: React 18, TypeScript, Vite
 *   **Styling**: Tailwind CSS
 *   **Icons**: Lucide React
-*   **AI & Backend Services**: Google Gemini API
+*   **Markdown Rendering**: React Markdown
+*   **AI & Backend Services**: Google Gemini API (`gemini-3-flash-preview` for generation/evaluation, `gemini-2.5-flash-preview-tts` for audio)
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Run `npm install`
-3. Add your Gemini API key to a `.env` file (`VITE_GEMINI_API_KEY=your_key`)
-4. Run `npm run dev`
+### Prerequisites
+
+*   Node.js (v18 or higher)
+*   npm or yarn
+*   A Google Gemini API Key
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/fhyfang/AI-.git
+    cd AI-
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up environment variables:**
+    Create a `.env` file in the root directory and add your Gemini API key:
+    ```env
+    VITE_GEMINI_API_KEY=your_api_key_here
+    ```
+
+4.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+
+5.  Open your browser and navigate to `http://localhost:3000`.
+
+## 📝 Usage
+
+1.  Enter a scenario in the "Scenario Setup" text area.
+2.  Click "Generate Lesson".
+3.  Listen to the generated audio and read along. Use the "Play 5 Times" button for shadowing practice.
+4.  Highlight words you don't understand for instant explanations.
+5.  Read the Pronunciation Guide and listen to the teacher's explanation.
+6.  Click "Start Recording" and read the article out loud. Click "Stop Recording" when finished.
+7.  Click "Evaluate My Pronunciation" to get your score and specific feedback.
+8.  Listen to the specific corrections provided in the evaluation results by clicking the audio icon next to them.
+
+## 📄 License
+
+This project is licensed under the MIT License.
