@@ -1,3 +1,7 @@
+👉 **[Try the Live Demo Here! 在线体验请点击这里](https://ais-pre-xpqzywc5zjh64n2wgrekbz-122397365735.us-west1.run.app)** 👈
+
+
+
 # Daily Dictation & Shadowing (AI 场景式英语跟读与发音私教)
 
 ![React](https://img.shields.io/badge/React-18.x-blue)
