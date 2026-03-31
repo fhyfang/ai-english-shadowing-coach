@@ -150,3 +150,29 @@ cp .env.example .env
 
 # 5. 启动本地开发服务器
 npm run dev
+
+
+
+🔐 API Key & 安全说明（Important）
+本项目作为 教学 / 个人学习 项目，当前架构是前端直接调用 Gemini API。
+这意味着：如果你将项目部署到公网，前端代码中暴露的 API Key 有被滥用的风险。
+建议：
+不要将真实的高权限 API Key 用于公开 Demo。
+生产环境请使用 后端代理服务 封装对 Gemini 的调用，在后端持有 API Key。
+如果只是本地学习和自用，可以接受一定风险，但仍建议设置调用限额。
+📝 使用指南 / Usage Flow
+可以把它想象成你每天的“口语训练流程模板”。
+在 “Scenario Setup” 场景输入区 输入你想练习的场景（中文或英文都可以）。
+点击 “Generate Lesson” 生成一段英语文本和对应音频。
+先 纯听 1–2 遍，大致感受语速、语调和节奏。
+使用 “Play 5 Times”，跟着音频做 shadowing 跟读：
+第 1–2 遍：对照文本，允许看着读
+第 3–5 遍：尽量脱稿模仿语调和节奏
+遇到不理解的单词或短语，划词查看精讲。
+阅读 Pronunciation Guide，对照提示再跟读几遍。
+点击 “Start Recording”，通读整段文本，读完后点击 “Stop Recording”。
+点击 “Evaluate My Pronunciation” 获取发音评分和纠错建议。
+对照每个纠错点的参考音频，单点突破，再读一遍。
+建议你把这个流程当成“日更模版”：每天只换场景，但训练路径保持一致。
+🤝 如何贡献（Contributing）
+欢迎任何形式的贡献：修 bug、加 feature、优化文案、改学习流程都可以。
