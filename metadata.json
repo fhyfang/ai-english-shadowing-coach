@@ -1,0 +1,5 @@
+{
+  "name": "English Shadowing Practice",
+  "description": "An app for English shadowing practice. The AI reads the text, you repeat it, and the AI evaluates your pronunciation.",
+  "requestFramePermissions": ["microphone"]
+}
