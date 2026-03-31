@@ -1,4 +1,4 @@
-# Daily Dictation & Shadowing (AI 场景式英语跟读与发音私教)
+# ai-english-shadowing-coach (AI 场景式英语跟读与发音私教)
 👉 **[Try the Live Demo Here! 在线体验请点击这里](https://ais-pre-xpqzywc5zjh64n2wgrekbz-122397365735.us-west1.run.app)** 👈  
 
 > 本项目面向以中文为母语、希望系统提升英语口语与听力的学习者，通过「真实场景 + 高频词汇 + 跟读 + 多模态发音纠错」打造一个完整的英语口语学习闭环。
